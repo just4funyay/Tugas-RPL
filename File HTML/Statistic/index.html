@@ -180,38 +180,38 @@
     margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 5px;
-}
-.text-4{
+    }
+ .text-4{
     font-size: 25px;
     margin-left: 25px;
     margin-top: 10px;
     padding-right: 10px;
     color: #7454BB;
-}
+    }
 .text-5{
     font-size: 25px;
     margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 10px;
     color: #7454BB;
-}
+    }
 .text-6{
     font-size: 15px;
     margin-left: 0px;
-}
+    }
 .text-7{
     margin-left: 25px;
-}
+    }
 .container-2 {
     max-width: 600px;
     margin-left: 25px;
-}
-
+    }
 .container-4 {
     max-width: 600px;
     margin-left: 25px;
     margin-bottom: 10px;
-}
+    }
+        
 .flex-container {
         display: flex;
         align-items: center;
@@ -220,18 +220,23 @@
         padding-bottom: -5%;
     }
 
-    .form-select {
+.form-select {
         margin-left: 30px;
         padding: 1%;
         border-radius: 20px;
         border: 1px solid #5a428c;
     }
-
+.form-control {
+        margin-left: 10px;
+        padding: 1%;
+        border-radius: 20px;
+        border: 1px solid #5a428c;
+    }
     </style>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="Assets/LOGO_Nav_Stat.png" alt="Logo" class="logo">
@@ -284,12 +289,7 @@
             <option value="11">November</option>
             <option value="12">December</option>
         </select>
-        <select class="form-select" aria-label="Default select example">
-            <option selected>Pilih Tahun</option>
-            <option value="1">2021</option>
-            <option value="2">2022</option>
-            <option value="3">2023</option>
-        </select>
+        <input type="number" class="form-control" id="inputAngka" placeholder="Ketikkan Tahun">
         <button class="btn-4">Simpan</button>
     </div>
     <div class="container-1">
